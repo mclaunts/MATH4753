@@ -1,7 +1,7 @@
 ---
 title: "Lab 5"
 author: "Megan Claunts"
-date: "'r Sys.date()'"
+date: "`r Sys.Date()`"
 output: 
   html_document:
     toc: yes
@@ -119,7 +119,7 @@ for( i in 1:iter){
 }
 ```
 
-```{r, fig.show = 'hide}
+```{r, fig.show = 'hide'}
 mysample(n=1000, iter=30, time=1)
 ```
 
@@ -158,4 +158,10 @@ pbinom(q = 8, size = 15, prob = 0.4)
 ```
 
 # Task 6
+
+## Convert fahrenheit to celsius
+
+```{r}
+MATH4753::fahrenheit_to_celsius(32)
+```
 

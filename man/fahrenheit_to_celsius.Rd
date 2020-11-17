@@ -4,7 +4,7 @@
 \alias{fahrenheit_to_celsius}
 \title{fahrenheit to celsius}
 \usage{
-fahrenheit_to_celsius(tempF)
+fahrenheit_to_celsius(temp_F)
 }
 \arguments{
 \item{tempF}{}
@@ -14,4 +14,8 @@ tempC
 }
 \description{
 fahrenheit to celsius
+}
+\examples{
+MATH4753::fahrenheit_to_celsiuc(32)
+return 0
 }
